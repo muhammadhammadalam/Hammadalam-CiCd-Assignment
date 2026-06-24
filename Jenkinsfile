@@ -24,7 +24,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                bat 'docker build -t ali-cicd-project .'
+                bat 'docker build -t Hammadalam-CICD-Pipeline .'
                 echo 'Deployed!'
             }
         }
